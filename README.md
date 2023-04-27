@@ -83,3 +83,26 @@ git diff
 Show unstaged changes between your index and working directory.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Undoing Changes
+```
+git revert <commit>
+```
+Create new commit that undoes all of the changes made in ```commit```, then apply it to the current branch.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+```
+git reset <file>
+```
+Remove ```file``` from the staging area, but leave the working directory unchanged. This unstages a file without overwriting any changes.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+```
+git clean -n
+```
+Shows which files would be removed from working directory. Use the -f flag in place of the -n flag to execute the clean
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
