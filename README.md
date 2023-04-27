@@ -18,3 +18,9 @@ When doing a group project, every developer gets their local repository with ful
 - Branch and Merge to allow for work on different parts and versions of a project
 - Pull the latest version of the project to a local copy
 - Push local updates to the main project
+
+### What is GitHub?
+- GitHub is different from Git.
+- GitHub is a popular distributed version control platform to help developers collaborate with each other remotely.
+- Developers can share their codes using GitHub.
+- You cannot use GitHub without Git but you can use Git without GitHub.
