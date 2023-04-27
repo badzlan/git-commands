@@ -75,16 +75,12 @@ Show unstaged changes between your index and working directory.
 git revert <commit>
 ```
 Create new commit that undoes all of the changes made in ```commit```, then apply it to the current branch.
-
--------------------------------------------------------------------------------------------------------------------------------------------------------
-
+<br><br>
 ```
 git reset <file>
 ```
 Remove ```file``` from the staging area, but leave the working directory unchanged. This unstages a file without overwriting any changes.
-
--------------------------------------------------------------------------------------------------------------------------------------------------------
-
+<br><br>
 ```
 git clean -n
 ```
@@ -97,16 +93,12 @@ Shows which files would be removed from working directory. Use the -f flag in pl
 git commit --amend
 ```
 Replace the last commit with the staged changes and last commit combined. Use with nothing staged to edit the last commit’s message.
-
--------------------------------------------------------------------------------------------------------------------------------------------------------
-
+<br><br>
 ```
 git rebase <base>
 ```
 Rebase the current branch onto ```base```. ```base``` can be a commit ID, branch name, a tag, or a relative reference to HEAD.
-
--------------------------------------------------------------------------------------------------------------------------------------------------------
-
+<br><br>
 ```
 git reflog
 ```
@@ -119,16 +111,12 @@ Show a log of changes to the local repository’s HEAD. Add --relative-date flag
 git branch
 ```
 List all of the branches in your repo. Add a ```branch``` argument to create a new branch with the name ```branch```.
-
--------------------------------------------------------------------------------------------------------------------------------------------------------
-
+<br><br>
 ```
 git checkout -b <branch>
 ```
 Create and check out a new branch named ```branch```. Drop the -b flag to checkout an existing branch.
-
--------------------------------------------------------------------------------------------------------------------------------------------------------
-
+<br><br>
 ```
 git merge <branch>
 ```
