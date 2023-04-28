@@ -277,3 +277,19 @@ git pull --rebase <remote>
 Fetch the remote’s copy of current branch and rebases it into the local copy. Uses git rebase instead of merge to integrate the branches.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### ▪ Git Push
+```
+git push <remote> --force
+```
+Forces the git push even if it results in a non-fast-forward merge. Do not use the --force flag unless you’re absolutely sure you know what you’re doing.
+<br><br>
+```
+git push <remote> --all
+```
+Push all of your local branches to the specified remote
+<br><br>
+```
+git push <remote> --tags
+```
+Tags aren’t automatically pushed when you push a branch or use the --all flag. The --tags flag sends all of your local tags to the remote repo.
