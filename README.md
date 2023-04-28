@@ -269,3 +269,11 @@ git rebase -i <base>
 Interactively rebase current branch onto <base />. Launches editor to enter commands for how each commit will be transferred to the new base.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### ▪ Git Pull
+```
+git pull --rebase <remote>
+```
+Fetch the remote’s copy of current branch and rebases it into the local copy. Uses git rebase instead of merge to integrate the branches.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
