@@ -172,3 +172,56 @@ git config --global --edit
 Open the global configuration file in a text editor for manual editing.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### ▪ Git Log
+```
+git log -<limit>
+```
+Limit number of commits by ```limit```. E.g. ”git log -5” will limit to 5 commits.
+<br><br>
+```
+git log --oneline
+```
+Condense each commit to a single line.
+<br><br>
+```
+git log -p
+```
+Display the full diff of each commit.
+<br><br>
+```
+git config --system core.editor <editor>
+```
+Set text editor used by commands for all users on the machine. ```editor``` arg should be the command that launches the desired editor (e.g., vi).
+<br><br>
+```
+git log --stat
+```
+Include which files were altered and the relative number of lines that were added or deleted from each of them.
+<br><br>
+```
+git log --author= ”<pattern>”
+```
+Search for commits by a particular author.
+<br><br>
+```
+git log --grep=”<pattern>”
+```
+Search for commits with a commit message that matches ```pattern```.
+<br><br>
+```
+git log <since>..<until>
+```
+Show commits that occur between ```since``` and ```until```. Args can be a commit ID, branch name, HEAD, or any other kind of revision reference.
+<br><br>
+```
+git log -- <file>
+```
+Only display commits that have the specified file.
+<br><br>
+```
+git log --graph --decorate
+```
+--graph flag draws a text based graph of commits on left side of commit msgs. --decorate adds names of branches or tags of commits shown.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
