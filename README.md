@@ -225,3 +225,16 @@ git log --graph --decorate
 --graph flag draws a text based graph of commits on left side of commit msgs. --decorate adds names of branches or tags of commits shown.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### ▪ Git Diff
+```
+git diff HEAD
+```
+Show difference between working directory and last commit.
+<br><br>
+```
+git diff --cached
+```
+Show difference between staged changes and last commit
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
