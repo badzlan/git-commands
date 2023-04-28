@@ -261,3 +261,11 @@ git reset --hard <commit>
 Same as previous, but resets both the staging area & working directory to match. Deletes uncommitted changes, and all commits after ```commit```.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### ▪ Git Rebase
+```
+git rebase -i <base>
+```
+Interactively rebase current branch onto <base />. Launches editor to enter commands for how each commit will be transferred to the new base.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
